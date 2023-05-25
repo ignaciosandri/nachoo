@@ -1,0 +1,46 @@
+title{color: blueviolet;}
+
+
+header{ border-radius: 50px blue;}
+
+h1{
+    background-color: aquamarine;
+     /*espacio externo*/
+    margin: 30px 60px 50px 26px;
+
+    /*espacio interno*/
+    padding: 30px 10px;
+    
+    /* el borde de la caja*/
+border-left: 3px solid black;
+border-bottom: 4px solid red;}
+
+
+header nav ul {
+    list-style: none;
+}
+header nav ul li{
+    background-color: rebeccapurple;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+.texto{
+    height: 2rem;
+    background-color: teal;
+    /*flex*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center  ;
+}
+.datos{
+    list-style:none ;
+    display: flex;
+    gap: 20px;
+    
+}
+.fotos{background-color: rgb(167, 12, 167);
+    grid-area: main;
+
+}
